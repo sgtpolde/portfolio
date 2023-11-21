@@ -10,7 +10,7 @@ const Education: React.FC = () => {
           <div className="bg-white shadow-lg rounded-lg p-6 flex items-center space-x-4">
             <FaGraduationCap className="text-3xl md:text-4xl text-purple-600" />
             <div>
-              <h3 className="text-xl md:text-2xl font-bold text-black">
+              <h3 className="text-xl md:text-2xl font-bold text-black text-left">
                 Computer Technician
               </h3>
               <p className="text-lg md:text-xl text-gray-700">
