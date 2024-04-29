@@ -62,7 +62,7 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.7, type: 'spring', stiffness: 100 }}
         >
-          Hello, I&apos;m <span className='text-primary'>Žak Bršek</span>
+          Hello, I&apos;m <span className='text-primary'>Name Surname</span>
         </motion.h1>
         <motion.p
           className='text-xl mt-3 mb-5'
