@@ -1,4 +1,4 @@
-import exp from 'constants';
+'use client'
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
@@ -18,17 +18,17 @@ const servicesVariants = {
 // Define services data or import from a constants file
 const services = [
   {
-    icon: '/path_to_dev_icon.svg',
+    icon: '',
     title: 'Web Development',
     description: 'High-quality websites and web applications.',
   },
   {
-    icon: '/path_to_api_icon.svg',
+    icon: '',
     title: 'API Integration',
     description: 'Seamless integration with third-party services.',
   },
   {
-    icon: '/path_to_uiux_icon.svg',
+    icon: '',
     title: 'UI/UX Design',
     description: 'Engaging and user-friendly design interfaces.',
   },

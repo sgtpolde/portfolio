@@ -2,6 +2,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 interface ProjectProps {
   title: string;
@@ -36,7 +37,9 @@ const Projects: NextPage = () => {
                 <h2 className="card-title">{project.title}</h2>
                 <p>{project.description}</p>
                 <div className="card-actions justify-end">
+                <Link href={`/Projects/${index}`}>
                   <button className="btn btn-primary">More Info</button>
+                </Link>
                 </div>
               </div>
             </motion.div>

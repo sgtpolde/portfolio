@@ -1,10 +1,10 @@
-'use client';
+
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import ServicesSection from './_components/(pages)/Services';
-import ContactSection from './_components/(pages)/Contact';
-
+import ContactSection from './_components/(pages)/Contact/Contact';
 import Hero from './_components/(pages)/Hero';
+
 
 const Home: NextPage = () => {
   return (

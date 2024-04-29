@@ -84,7 +84,7 @@ const Hero = () => {
         </Link>
       </motion.div>
 
-      {/* Code Snippet */}
+      {/* Code Snippet 
       <motion.div
         className='w-full md:w-1/2 p-8 rounded-lg flex justify-left items-center'
         initial={{ opacity: 0 }}
@@ -103,6 +103,7 @@ const Hero = () => {
           ))}
         </div>
       </motion.div>
+      */}
     </header>
   );
 };
