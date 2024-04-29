@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 const NotFoundPage = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-base-300 text-base-content">
+    <div className="min-h-screen w-full px-4 flex flex-col justify-center items-center bg-base-300 text-base-content">
       <Head>
         <title>404 - Page Not Found</title>
       </Head>
