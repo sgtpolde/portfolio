@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-hero-pattern {
-    background-image: url('/profile.png'); /* Update with your actual image path */
-  }
-  
+ 
   .btn:hover {
     transition: transform 0.3s ease-in-out;
   }
@@ -16,4 +13,20 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
   }
+
+  .animated-background {
+    background: linear-gradient(270deg, #10b981, #2563eb, #facc15, #ef4444, #06b6d4);
+    background-size: 800% 800%;
+    animation: gradientAnimation 30s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
   
