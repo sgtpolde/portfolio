@@ -10,11 +10,11 @@ const Home: NextPage = () => {
   useSEO({
     title: 'Full-Stack Developer Portfolio',
     description: 'Portfolio of Full-Stack Developer Žak Bršek',
-    canonical: 'https://skurjen.si',
+    canonical: 'https://www.skurjen.si',
     ogTitle: 'Full-Stack Developer Portfolio',
     ogDescription: 'Portfolio of Full-Stack Developer Žak Bršek',
     //ogImage: 'https://example.com/og-image.jpg',
-    ogUrl: 'https://skurjen.si',
+    ogUrl: 'https://www.skurjen.si',
   });
   return (
     <div className='min-h-screen bg-base-300 text-base-content'>
