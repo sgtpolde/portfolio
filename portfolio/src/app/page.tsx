@@ -10,14 +10,6 @@ import UnderConstruction from './_components/(utils)/UnderConstruction';
 const Home: NextPage = () => {
   return (
     <div className='min-h-screen bg-base-300 text-base-content'>
-      <Head>
-        <title>Full-Stack Developer Portfolio</title>
-        <meta
-          name='description'
-          content='Portfolio of Full-Stack Developer Žak Bršek'
-        />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
       {/*
       <Hero />
       <ServicesSection />
